@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.herolink{
+	display: flex;
+}
+.herolink p{
+	padding: 10px
+}
+.maintext p{
+	display: flex;
+}
