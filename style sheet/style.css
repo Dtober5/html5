@@ -1,16 +1,64 @@
 @charset "utf-8";
-/* CSS Document */
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.herolink{
-	display: flex;
+
+.herolink {
+  display: flex;
+  background-color: #150300; 
+  width: 100%;
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px;
 }
-.herolink p{
-	padding: 10px
+
+.herolink-title {
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: auto; 
 }
-.maintext p{
-	display: flex;
+
+.herolink-links {
+  display: flex;
+}
+
+.herolink p {
+  padding: 10px;
+  color: #3a3a3a;
+  text-transform: uppercase;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+
+.maintext {
+  flex: 1;
+  text-align: center; 
+  padding: 0 20px; 
+}
+
+.maintext h2 {
+  color: #ff0;
+}
+
+.maintext p {
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+.image-container {
+  flex: 1;
+  text-align: right;
+  padding: 0 20px;
 }
